@@ -71,13 +71,17 @@ const Sidebar = () => {
             <AccountCircleIcon className="icon" />
             <span>Profile</span>
           </li>
-          <li>
+          <li id="logout">
             <LogoutIcon className="icon" />
             <span>Logout</span>
           </li>
         </ul>
+        <hr />
       </div>
-      <div className="bottom">color options</div>
+      <div className="bottom">
+      <div className="colorOption"></div>
+      <div className="colorOption"></div>
+      </div>
     </div>
   );
 };
