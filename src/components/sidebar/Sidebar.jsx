@@ -4,6 +4,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
+        <span id="dot">.</span>
         <span className="logo">toosh</span>
       </div>
       <div className="center">

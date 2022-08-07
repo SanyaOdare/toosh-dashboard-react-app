@@ -1,0 +1,28 @@
+.sidebar {
+  // background-color: #1849C6;
+  flex: 1;
+
+  .top {
+    background-color: #1849C6;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      color: #fff;
+      font-size: 1.25rem;
+      font-weight: 700;
+
+      position: relative;
+    }
+
+    #dot {
+      color: #FFBE0B;
+      font-size: 7.5rem;
+      margin-right: 5.5rem;
+      position: absolute;
+      bottom: 90.5%;
+    }
+  }
+}
