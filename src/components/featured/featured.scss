@@ -13,4 +13,66 @@
     font-weight: 4;
     letter-spacing: 0.5px;
   }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+
+    .featuredChart {
+      height: 100px;
+      width: 100px;
+    }
+
+    .title {
+      color: #606060;
+      font-weight: 500;
+    }
+
+    .amount {
+      font-size: 1.875rem;
+      letter-spacing: 2px;
+    }
+
+    .desc {
+      color: #606060;
+      font-size: 0.75rem;
+      font-weight: 300;
+      text-align: center;
+    }
+    
+    .summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      .item {
+        text-align: center;
+
+        .itemTitle {
+          color: #606060;
+          font-size: 0.875rem;
+        }
+
+        .itemResult {
+          display: flex;
+          align-items: center;
+          font-size: 0.875rem;
+          margin-top: 10px;
+
+          &.positive {
+            color: #008000;
+          }
+
+          &.negative {
+            color: #FB5607;
+          }
+        }
+      }
+    }
+  }
 }

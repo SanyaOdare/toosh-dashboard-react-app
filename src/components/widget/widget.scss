@@ -6,8 +6,8 @@
   flex: 1;
   height: 100px;
   padding: 10px;
-  box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
   .left, 
   .right {
@@ -25,7 +25,7 @@
     .counter {
       font-size: 1.6rem;
       font-weight: 300;
-      letter-spacing: 2.5px;
+      letter-spacing: 1px;
     }
 
     .link {
