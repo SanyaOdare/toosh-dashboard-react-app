@@ -27,8 +27,30 @@
     }
 
     .link {
-      font-size: 0.75rem;
       border-bottom: 1px solid #a0a0a0;
+      font-size: 0.75rem;
+      width: max-content;
     }
+
+    .percentage {
+      display: flex;
+      align-items: center;
+      font-size: 0.875rem;
+
+      &.positive {
+        color: #008000;
+      }
+
+      &.negative {
+        color: #ff0000;
+      }
+    }
+  }
+
+  .icon {
+    align-self: flex-end;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    padding: 5px;
   }
 }

@@ -4,10 +4,14 @@
   .homeContainer {
     flex: 6;
 
-    .widgets {
+    .widgets, .charts {
       display: flex;
-      gap: 20px;
+      gap: 15px;
       padding: 20px;
+    }
+
+    .charts {
+      padding: 5px 20px;
     }
   }
 }
@@ -16,4 +20,6 @@
 // --dark-blue: #1849C6;
 // --bg-hover: #1340b1;
 // --toosh-yellow: #FFBE0B;
+// --toosh-orange-200: #FF7B00;
+// --toosh-orange-400: #FB5607;
 // --title-color: #999;
