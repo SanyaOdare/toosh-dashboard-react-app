@@ -1,5 +1,16 @@
 .featured {
+  background-color: #fff;
   flex: 2;
   box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-  -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+
+  .top {
+    color: #606060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 4;
+    letter-spacing: 0.5px;
+  }
 }
