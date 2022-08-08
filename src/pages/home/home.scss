@@ -2,8 +2,13 @@
   display: flex;
 
   .homeContainer {
-    // background-color: #E8EFFF;
     flex: 6;
+
+    .widgets {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
   }
 }
 
