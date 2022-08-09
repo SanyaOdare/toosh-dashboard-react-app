@@ -1,8 +1,89 @@
 .singlePage {
+  background-color: #E8EFFF;
   display: flex;
   width: 100%;
 
   .singleContainer {
     flex: 6;
+
+    .top {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+
+      .left {
+        background-color: #fff;
+        box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        flex: 1;
+        padding: 20px;
+        position: relative;
+
+        .editButton {
+          background-color: #E8EFFF;
+          border-radius: 0px 0px 0px 3px;
+          color: #1849C6;
+          cursor: pointer;
+          font-size: 0.75rem;
+          padding: 5px;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+
+        .item {
+          display: flex;
+          gap: 20px;
+
+          .itemImg {
+            border-radius: 50%;
+            height: 100px;
+            object-fit: cover;
+            width: 100px;
+          }
+
+          .details {
+            .itemTitle {
+              color: #606060;
+              margin-bottom: 10px;
+            }
+
+            .detailItem {
+              font-size: 0.875rem;
+              margin-bottom: 10px;
+
+              .itemKey {
+                color: #808080;
+                font-weight: 700;
+                margin-right: 8px;
+              }
+
+              .itemValue {
+                font-size: 0.9rem;
+                font-weight: 200;
+              }
+            }
+          }
+        }
+      }
+
+      .right {
+        flex: 2;
+      }
+    }
+  }
+
+  .bottom {
+    background-color: #fff;
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .title {
+    color: #acacac;
+    font-size: 1rem;
+    margin-bottom: 20px;
   }
 }
