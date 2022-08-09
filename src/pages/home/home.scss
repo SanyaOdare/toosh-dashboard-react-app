@@ -14,8 +14,37 @@
     .charts {
       padding: 5px 20px;
     }
+
+    .listContainer {
+      background-color: #fff;
+      border-radius: 3px;
+      box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      margin: 20px;
+      padding: 20px;
+
+      .listTitle {
+        color: #606060;
+        font-weight: 500;
+        margin-bottom: 15px;
+      }
+    }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // --lightest-blue: #E8EFFF;
 // --dark-blue: #1849C6;
