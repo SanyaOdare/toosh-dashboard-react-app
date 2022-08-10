@@ -71,19 +71,19 @@
         flex: 2;
       }
     }
-  }
-
-  .bottom {
-    background-color: #fff;
-    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-    margin: 20px;
-    padding: 20px;
-  }
-
-  .title {
-    color: #acacac;
-    font-size: 1rem;
-    margin-bottom: 20px;
+    
+    .bottom {
+      background-color: #fff;
+      box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      margin: 10px 20px;
+      padding: 20px;
+    }
+    
+    .title {
+      color: #acacac;
+      font-size: 1rem;
+      margin-bottom: 10px 20px;
+    }
   }
 }

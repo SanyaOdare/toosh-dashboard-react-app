@@ -92,7 +92,7 @@ export const userRows = [
     username: "Clifford",
     img: "https://images.pexels.com/photos/248952/pexels-photo-248952.jpeg?auto=compress&cs=tinysrgb&w=1600",
     email: "7snow@gmail.com",
-    status: "passive",
+    status: "pending",
     age: 22,
   },
   {
@@ -100,7 +100,7 @@ export const userRows = [
     username: "Frances",
     img: "https://images.pexels.com/photos/4916226/pexels-photo-4916226.jpeg?auto=compress&cs=tinysrgb&w=1600",
     email: "8snow@gmail.com",
-    status: "passive",
+    status: "active",
     age: 38,
   },
   {
@@ -109,6 +109,14 @@ export const userRows = [
     img: "https://images.pexels.com/photos/4481257/pexels-photo-4481257.jpeg?auto=compress&cs=tinysrgb&w=1600",
     email: "9snow@gmail.com",
     status: "passive",
+    age: 22,
+  },
+  {
+    id: 10,
+    username: "Ronaldo",
+    img: "https://images.pexels.com/photos/4481257/pexels-photo-4481257.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    email: "10snow@gmail.com",
+    status: "active",
     age: 22,
   },
 ]
